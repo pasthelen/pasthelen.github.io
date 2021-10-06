@@ -182,3 +182,51 @@ ul {
   margin-right: 1021px;
   margin-top: 10px;
 }
+.a {
+  list-style-type: circle;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: lightblue; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  align-content: center;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  border: 2px solid lightblue;
+  margin-left: 50px;
+}
+
+.button1:hover {
+  align-content: center;
+  background-color: lightblue;
+  border-radius: 20px;
+  color: white;
+  margin-left: 50px;
+}
