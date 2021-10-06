@@ -201,6 +201,7 @@ ul {
 }
 
 .button {
+  font-family: "Courier New";
   background-color: lightblue; /* Green */
   border: none;
   color: white;
@@ -215,6 +216,7 @@ ul {
 }
 
 .button1 {
+  font-family: "Courier New";
   align-content: center;
   background-color: white;
   border-radius: 20px;
@@ -224,6 +226,7 @@ ul {
 }
 
 .button1:hover {
+  font-family: "Courier New";
   align-content: center;
   background-color: lightblue;
   border-radius: 20px;
