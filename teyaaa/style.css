@@ -150,6 +150,7 @@ h2 h3.abzac {
 h3 {
   display: inline-block;
   font-family: "Poiret One";
+  font-size: 16px;
   background: black; /* Цвет фона под заголовком */
   color: white; /* Цвет текста */
   padding: 4px; /* Поля вокруг текста */
