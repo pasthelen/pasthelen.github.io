@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.circle {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  margin-left: 250px;
+}
+
+.circle2 {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  margin-right: 250px;
+}
+
+#page-title {
+  text-align: center;
+  font-family: "Poiret One";
+  font-size: 20px;
+}
+
+.block-1 {
+  background-image: url(nnn.png);
+  background-size: cover;
+  font-size: 22px;
+  width: 600px;
+  height: 200px;
+  padding: 20px 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.block-2 {
+  background-image: url(Sylvia_Plath.jpg);
+  background-size: cover;
+  font-size: 22px;
+  width: 400px;
+  height: 500px;
+  padding: 20px 40px;
+  border: black solid 7px;
+  margin-left: 200px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+.block-3 {
+  background-image: url(Heorhii.png);
+  background-size: cover;
+  font-size: 22px;
+  width: 200px;
+  height: 200px;
+  padding: 20px 40px;
+  border: white solid 7px;
+  margin-left: 750px;
+  margin-right: 50px;
+  margin-top: -247px;
+}
+
+.block-4 {
+  width: 200px;
+  height: 200px;
+  padding: 20px 40px;
+  border: black solid 7px;
+  margin-left: 800px;
+  margin-right: 50px;
+  margin-top: -247px;
+}
+p {
+  color: #11bcffe7;
+  font-style: italic;
+}
+.abzac-1 {
+  color: green;
+  font-size: 20px;
+}
+.abzac {
+  font-size: 32px;
+}
+
+.abzac-2 {
+  color: black;
+  font-size: 16px;
+  font-family: "Courier New";
+  font-style: normal;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: -90px;
+}
+
+h1 {
+  display: inline-block;
+  background: black; /* Цвет фона под заголовком */
+  color: white; /* Цвет текста */
+  padding: 4px; /* Поля вокруг текста */
+  margin-left: 338px;
+  margin-right: 50px;
+  margin-top: -200px;
+}
+
+h2.abzac {
+  text-align: center;
+  font-size: 1.5em; /* = 1,5x16px */
+}
+
+.georg {
+  color: black;
+  font-size: 16px;
+  font-family: "Courier New";
+  font-style: normal;
+  margin-left: 757px;
+  margin-top: -34px;
+}
