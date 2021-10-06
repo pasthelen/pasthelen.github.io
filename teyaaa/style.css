@@ -146,6 +146,7 @@ h2 h3.abzac {
   margin-left: 1065px;
   margin-top: -34px;
 }
+
 h3 {
   display: inline-block;
   font-family: "Poiret One";
@@ -155,4 +156,28 @@ h3 {
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 30px;
+}
+
+ul {
+  color: black;
+  font-size: 16px;
+  font-family: "Poiret One";
+  font-style: normal;
+  margin-left: 30px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.snidanok {
+  background-color: lightblue;
+  border-style: solid;
+  border-color: lightblue;
+  border-width: 10px;
+  color: black;
+  font-size: 16px;
+  font-family: "Poiret One";
+  font-style: normal;
+  margin-left: 50px;
+  margin-right: 1021px;
+  margin-top: 10px;
 }
