@@ -38,20 +38,19 @@ body {
 }
 
 .block-2 {
-  background-image: url(sylviapalth.jpg);
+  background-image: url(sylviaplath.jpg);
   background-size: cover;
   font-size: 22px;
-  width: 400px;
-  height: 500px;
+  width: 149px;
+  height: 194px;
   padding: 20px 40px;
-  border: black solid 7px;
-  margin-left: 200px;
-  margin-right: 150px;
-  margin-top: 50px;
+  border: black solid 3px;
+  margin-left: 1065px;
+  margin-top: -275px;
 }
 
 .block-3 {
-  background-image: url(Heorhii.png);
+  background-image: url(heorhii.png);
   background-size: cover;
   font-size: 22px;
   width: 200px;
@@ -76,13 +75,32 @@ p {
   color: #11bcffe7;
   font-style: italic;
 }
+
 .abzac-1 {
-  color: green;
-  font-size: 20px;
+  color: black;
+  font-size: 30px;
 }
 .abzac {
-  font-size: 32px;
+  font-size: 16px;
   font-family: "Poiret One";
+  font-style: normal;
+  margin-top: -50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.abzac-3 {
+  font-size: 16px;
+  font-family: Helvetica;
+  font-style: normal;
+  margin-top: -50px;
+  margin-left: 50px;
+}
+.border {
+  border-style: solid;
+  border-radius: 5px;
+  width: 300px;
+  height: 200px;
 }
 
 .abzac-2 {
@@ -97,6 +115,7 @@ p {
 
 h1 {
   display: inline-block;
+  font-family: "Poiret One";
   background: black; /* Цвет фона под заголовком */
   color: white; /* Цвет текста */
   padding: 4px; /* Поля вокруг текста */
@@ -107,7 +126,7 @@ h1 {
 
 h2.abzac {
   text-align: center;
-  font-size: 1.5em; /* = 1,5x16px */
+  font-size: 1.2em; /* = 1,5x16px */
 }
 
 .georg {
@@ -116,5 +135,14 @@ h2.abzac {
   font-family: "Courier New";
   font-style: normal;
   margin-left: 757px;
+  margin-top: -34px;
+}
+
+.sylvia {
+  color: black;
+  font-size: 16px;
+  font-family: "Courier New";
+  font-style: normal;
+  margin-left: 1065px;
   margin-top: -34px;
 }
