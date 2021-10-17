@@ -140,3 +140,7 @@ body {
 .heading2 {
   color: rgb(255, 255, 255);
 }
+
+.a {
+  list-style-type: circle;
+}
