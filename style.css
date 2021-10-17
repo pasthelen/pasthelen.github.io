@@ -1,119 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: rgb(255, 255, 255);
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: rgb(255, 255, 255);
+  margin: auto;
 }
 
-.circle {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 100%;
-  margin-left: 250px;
+.header {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
 }
 
-.circle2 {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 100%;
-  margin-right: 250px;
-}
-
-#page-title {
-  text-align: center;
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
   font-family: "Poiret One";
-  font-size: 20px;
+  width: 100%;
+  justify-content: right;
 }
 
-.block-1 {
-  background-image: url(nnn.png);
-  background-size: cover;
-  font-size: 22px;
-  width: 600px;
-  height: 200px;
-  padding: 20px 40px;
-  margin-top: 50px;
-  margin-left: 50px;
-}
-
-.block-2 {
-  background-image: url(Sylvia_Plath.jpg);
-  background-size: cover;
-  font-size: 22px;
-  width: 400px;
-  height: 500px;
-  padding: 20px 40px;
-  border: black solid 7px;
-  margin-left: 200px;
-  margin-right: 150px;
-  margin-top: 50px;
-}
-
-.block-3 {
-  background-image: url(Heorhii.png);
-  background-size: cover;
-  font-size: 22px;
-  width: 200px;
-  height: 200px;
-  padding: 20px 40px;
-  border: white solid 7px;
-  margin-left: 750px;
-  margin-right: 50px;
-  margin-top: -247px;
-}
-
-.block-4 {
-  width: 200px;
-  height: 200px;
-  padding: 20px 40px;
-  border: black solid 7px;
-  margin-left: 800px;
-  margin-right: 50px;
-  margin-top: -247px;
-}
-p {
-  color: #11bcffe7;
-  font-style: italic;
-}
-.abzac-1 {
-  color: green;
-  font-size: 20px;
-}
-.abzac {
-  font-size: 32px;
-}
-
-.abzac-2 {
-  color: black;
-  font-size: 16px;
+.section {
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  padding-top: 65px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
   font-family: "Courier New";
-  font-style: normal;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: -90px;
+  font-size: 13px;
 }
 
-h1 {
+#about {
+  background-color: rgb(255, 255, 255);
+}
+
+#portfolio {
+  background-color: rgb(0, 0, 0);
+}
+#contacts {
+  background-color: rgb(255, 255, 255);
+}
+
+.menu a {
   display: inline-block;
-  background: black; /* Цвет фона под заголовком */
-  color: white; /* Цвет текста */
-  padding: 4px; /* Поля вокруг текста */
-  margin-left: 338px;
-  margin-right: 50px;
-  margin-top: -200px;
+  padding: 2px 8px;
+  margin: 0 8px;
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.menu a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-bottom-color: white;
 }
 
-h2.abzac {
-  text-align: center;
-  font-size: 1.5em; /* = 1,5x16px */
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
 }
 
-.georg {
+.wrapper2 {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.header .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+#about .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about .section-title {
+  width: 100%;
+}
+
+#about .section-image img {
+  width: 100%;
+}
+
+#about .section-image,
+#about .section-text {
+  width: 50%;
+}
+
+.heading {
+  font-family: "Poiret One";
+  font-size: 24px;
   color: black;
-  font-size: 16px;
-  font-family: "Courier New";
-  font-style: normal;
-  margin-left: 757px;
-  margin-top: -34px;
+}
+
+#portfolio .wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+#portfolio .section-text {
+  width: 100%;
+}
+#portfolio .section-image img {
+  width: 100%;
+}
+#portfolio .section-image2 img {
+  width: 100%;
+}
+#portfolio .section-image3 img {
+  width: 100%;
+}
+#portfolio .section-image4 img {
+  width: 100%;
+}
+#portfolio .section-title,
+#portfolio .section-image,
+#portfolio .section-image2,
+#portfolio .section-image3,
+#portfolio .section-text {
+  width: 30%;
+}
+.heading2 {
+  color: rgb(255, 255, 255);
 }
