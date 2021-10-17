@@ -144,3 +144,36 @@ body {
 .a {
   list-style-type: circle;
 }
+
+.header .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+#contacts .wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+#contacts .wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#contacts .section-text {
+  width: 100%;
+}
+
+#contacts .section-text2 {
+  width: 100%;
+}
+
+#contacts .section-text3 {
+  width: 100%;
+}
+
+#contacts .section-text,
+#contacts .section-text2,
+#contacts .section-text3 {
+  width: 50%;
+}
