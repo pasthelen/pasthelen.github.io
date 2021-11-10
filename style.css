@@ -60,6 +60,10 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+#contacts3 {
+  background-color: black;
+}
+
 .menu a {
   display: inline-block;
   padding: 2px 8px;
@@ -240,4 +244,33 @@ body {
 
 .contacts-item {
   width: 100%;
+}
+
+.wrapper3 {
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.page-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  fill: black;
+  height: 200px;
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 14px;
+  columns: 3;
+}
+
+.contacts-row3 {
+  display: flex;
+  width: 700px;
+  justify-content: center;
+}
+.contacts-item3 {
+  width: 100%;
+  margin-top: 80px;
 }
