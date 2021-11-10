@@ -274,3 +274,10 @@ body {
   width: 100%;
   margin-top: 80px;
 }
+
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+  text-decoration: none;
+  color: white;
+}
