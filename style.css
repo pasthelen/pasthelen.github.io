@@ -10,6 +10,11 @@ body {
   margin: auto;
 }
 
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
 .header {
   position: sticky;
   top: 0px;
@@ -174,7 +179,14 @@ body {
 } */
 
 .gallery-item img {
-  width: 100%;
+  max-width: 100%;
+}
+
+.gallery-column {
+  flex: 1 1 auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
 }
 
 .heading2 {
