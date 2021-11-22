@@ -182,6 +182,10 @@ img {
   max-width: 100%;
 }
 
+.gallery-item {
+  width: 33%;
+}
+
 .gallery-column {
   flex: 1 1 auto;
   flex-grow: 1;
@@ -270,10 +274,10 @@ img {
   justify-content: center;
   fill: black;
   height: 200px;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   font-family: "Courier New", Courier, monospace;
-  color: white;
-  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
   columns: 3;
 }
 
@@ -294,6 +298,7 @@ a:visited {
 a:hover {
   color: white;
   text-decoration: none;
+  transition: 0.4s;
 }
 
 a {

@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pasthelen</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+    integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+
+
     <meta
       name="description"
       content="Дизайнерка та фотографка в одному тiлi"
@@ -45,7 +56,7 @@
         <ul class="menu">
           <li><a href="#about"> Про мене </a></li>
           <li><a href="#portfolio"> Портфолiо </a></li>
-          <li><a href="#contacts"> Контакти </a></li>
+          <!-- <li><a href="#contacts"> Контакти </a></li> -->
         </ul>
       </div>
     </div>
@@ -71,18 +82,29 @@
 
         <div class="gallery">
           <div class="gallery-row"> 
+            
+            <div class="gallery" id="lightgallery">
             <div class="gallery-item">
-              <img src="mmmmma.png" />
+                <a href="mmmmma.png">
+              <img src="mmmmma.png">
+            </a>
             </div>
             
             <div class="gallery-item">
+              <a href="mmmma.png">
               <img src="mmmma.png">
+            </a>
             </div>
             <div class="gallery-item">
+              <a href="ma.png">
               <img src="ma.png">
+            </a>
+           </div>
           </div>
          </div>
          <div class="gallery-row"> 
+          
+
           
           <div class="gallery-item">
             <img src="aaam.png" >
@@ -107,24 +129,37 @@
             <div class="gallery-row">
               <div class="gallery-column gallery-item">
 
-
-                <div class="gallery-row">
-            <div class="gallery-column gallery-item">
+                <div class="gallery" id="lightgallery2">
+               <div class="gallery-row">
+                
+                 <div class="gallery-column gallery-item">
+                    
+              <a href="aam.png">
               <img src="aam.png" >
+            </a>
             </div>
           
 
 
             
             <div class="gallery-column gallery-item">
+              <a href="aaam.png">
               <img src="aaam.png" >
+            </a>
             </div>
 
-            <div class="gallery-row">
+            
             <div class="gallery-column gallery-item">
+              <a href="am.png">
               <img src="am.png" >
-              </div>
+            </a>
+            </div>
+             
           </div>
+          </div>
+          </div>
+        
+      </div>
             <!-- <div class="gallery-row">
             <div class="gallery-column gallery-item">
               <img src="am.png" >
@@ -154,7 +189,7 @@
        </div></div>
 
        
-            <div id="contacts" class="section">
+            <!-- <div id="contacts" class="section">
       <div class="wrapper2">
         <h2 class="section-title, wrapper"> <div class="heading heading">Контакти</div></h2> <br/><br/><br/><br/><br/><br/>
         
@@ -191,7 +226,10 @@
     </div>
   </div>
 </div>
-</div>
+</div> -->
+
+
+
 <div id="contacts3">
 <footer class="page-footer">
 
@@ -203,7 +241,7 @@
 >pasthelens</a> </p> </div>
 <br/>
 <div class="contacts-item3">
-<p>pasthelens@gmail.com</p>
+<p> <a href="https://www.google.com/intl/ru/gmail/about/" target="_blank">pasthelens@gmail.com</a></p>
 </div>
 <br/>
 <div class="contacts-item3">
@@ -216,7 +254,29 @@
  </div>
 </footer>
 
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+      integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
+    <script type="text/javascript">
+      lightGallery(document.getElementById('lightgallery'), {selector: '.gallery-item a',
+      });
+    </script>
+
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+></script>
+
+<script type="text/javascript">
+lightGallery(document.getElementById('lightgallery2'), {selector: '.gallery-item a',
+});
+</script>
 
 
 
