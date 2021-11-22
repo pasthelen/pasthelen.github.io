@@ -186,6 +186,15 @@ img {
   width: 33%;
 }
 
+.galleryhelp-item img {
+  max-width: 100%;
+}
+
+.galleryhelp-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .gallery-column {
   flex: 1 1 auto;
   flex-grow: 1;
