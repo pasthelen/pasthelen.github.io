@@ -320,16 +320,6 @@ img {
   margin-top: 80px;
 }
 
-a:visited {
-  color: rgb(192, 192, 192);
-  text-decoration: none;
-}
-a:hover {
-  color: white;
-  text-decoration: none;
-  transition: 0.4s;
-}
-
 a {
   text-decoration: none;
 }
