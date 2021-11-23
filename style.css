@@ -54,11 +54,11 @@ img {
   background-color: rgb(255, 255, 255);
 }
 
-#portfolio {
+#photos {
   background-color: rgb(0, 0, 0);
 }
-#contacts {
-  background-color: rgb(255, 255, 255);
+#illustration {
+  background-color: rgb(0, 0, 0);
 }
 
 #song {
@@ -186,6 +186,22 @@ img {
   width: 33%;
 }
 
+.gallery-item2 {
+  width: 55%;
+}
+
+.gallery-item3 {
+  width: 33%;
+  padding: 10px;
+}
+
+.gallery-item4 {
+  width: 55%;
+  padding: 10px;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
 .galleryhelp-item img {
   max-width: 100%;
 }
@@ -193,6 +209,10 @@ img {
 .galleryhelp-item {
   display: flex;
   flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: 33%;
 }
 
 .gallery-column {
