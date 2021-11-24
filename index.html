@@ -48,11 +48,15 @@
         <a href="#top"> pasthelen</a>
       
       </div>
+
+
         <ul class="menu">
           <li><a href="#about"> Про мене </a></li>
           <li><a href="#photos"> Фотокартки </a></li>
           <li><a href="#illustration"> Ілюстрація </a></li>
         </ul>
+
+
       </div>
     </div>
 
@@ -79,29 +83,35 @@
           <div class="gallery-row"> 
             
             <div class="galleryhelp-item" id="lightgallery">
+
+
             <div class="gallery-item">
-                <a href="mmmmma.png">
-              <img src="mmmmma.png">
-            </a>
+              <a href="mmmmma.png">
+                <img src="mmmmma.png">
+              </a>
             </div>
             
             <div class="gallery-item">
               <a href="mmmma.png">
-              <img src="mmmma.png">
-            </a>
+                <img src="mmmma.png">
+              </a>
             </div>
+           
             <div class="gallery-item">
               <a href="ma.png">
               <img src="ma.png">
             </a>
            </div>
+
           </div>
          </div>
+         
+         
+         
          <div class="gallery-row"> 
           
-
-          
-          <div class="gallery-item">
+          <!-- <div class="haha"> -->
+         <div class="gallery-item">
             <img src="aaam.png" >
           </div>
           <div class="gallery-item">
@@ -117,13 +127,21 @@
             <img src="aaam.png" >
           </div>
         </div>
+      <!-- </div> -->
       </div>
+    
+    
+    
+    
 
          
           <div class="gallery"> 
             <div class="gallery-row">
               <div class="gallery-column gallery-item">
 
+
+                
+              
                 <div class="galleryhelp-item" id="lightgallery2">
                <div class="gallery-row">
                 
@@ -183,6 +201,8 @@
        </div>
        </div></div>
 
+      
+
        
             <!-- <div id="contacts" class="section">
       <div class="wrapper2">
@@ -235,13 +255,15 @@
     <div class="gallery">
       <div class="gallery-row"> 
         
-        <div class="galleryhelp-item" id="lightgallery4">
+        <div class="galleryhelp-item">
           <div class="gallery-row"> 
-        <div class="gallery-item2">
-            <a href="il.jpg">
-          <img src="il.jpg">
-        </a>
-        </div>
+
+            <div class="gallery-item2 show-in-lightgallery">
+              <a href="il.jpg">
+                <img src="il.jpg">
+              </a>
+            </div>
+
       </div>
 
         <div class="gallery-item">
@@ -251,7 +273,7 @@
           
        </div>
       
-       <div class="gallery-item3"> 
+       <div class="gallery-item3 show-in-lightgallery"> 
         <a href="il3.JPG">
         <img src="il3.JPG">
       </a>
@@ -262,10 +284,12 @@
 
      <div class="gallery-row"> 
       
-
       
-      <div class="gallery-item">
+      
+      <div class="gallery-item show-in-lightgallery">
+        <a href="bigli7.png">
         <img src="li7.png" >
+      </a>
       </div>
       <div class="gallery-item"> &nbsp;
           
@@ -287,10 +311,10 @@
         <div class="gallery-row">
           <div class="gallery-column gallery-item">
 
-            <div class="galleryhelp-item" id="lightgallery5">
+            <div class="galleryhelp-item">
            <div class="gallery-row">
             
-             <div class="gallery-column gallery-item">
+             <div class="gallery-column gallery-item show-in-lightgallery">
                 
           <a href="li1.jpg">
           <img src="li1.jpg" >
@@ -324,8 +348,8 @@
 
       
     <div class="gallery-item">
-      <img src="li7.png" >
-    </div>
+       <img src="li7.png" >
+     </div>
     <div class="gallery-item"> &nbsp;
         
     </div>
@@ -345,7 +369,7 @@
 <div class="gallery">
   <div class="gallery-row"> 
     
-    <div class="galleryhelp-item" id="lightgallery3">
+    <div class="galleryhelp-item show-in-lightgallery" id="lightgallery3">
       <div class="gallery-row"> 
     <div class="gallery-item4">
         <a href="il2.png">
@@ -369,7 +393,7 @@
   <div class="gallery-item"> &nbsp;
     
  </div>
-   <div class="gallery-item4"> 
+   <div class="gallery-item4 show-in-lightgallery"> 
     <a href="olo.png">
     <img src="olo.png">
   </a>
@@ -391,7 +415,29 @@
 
 
 
-<div id="contacts3">
+      <div class="footerhelp sectionfooter">
+        <div class="wrapper">
+          
+  
+  
+          <ul class="footerhelp2">
+            <li><p>Фотокартки: <a href="https://www.instagram.com/pasthelens/" target="_blank"
+              >pasthelens</a> </p></li>
+            <li><p><a href="https://www.google.com/intl/ru/gmail/about/" target="_blank">pasthelens@gmail.com</a></p></li> 
+            <li><p>+380 63 938 93 37</p></li> 
+            
+          </ul>
+  
+  
+        </div>
+      </div>
+
+
+
+
+
+
+<!-- <div id="contacts3">
 <footer class="page-footer">
 
 <div class="contacts">
@@ -413,7 +459,7 @@
    </div>
   </div>
  </div>
-</footer>
+</footer> -->
 
 <script
       src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
@@ -423,60 +469,13 @@
     ></script>
 
     <script type="text/javascript">
-      lightGallery(document.getElementById('lightgallery'), {selector: '.galleryhelp-item a',
+      
+      lightGallery(document.getElementById('photos'), {selector: '.gallery-item a',
+      });
+
+      lightGallery(document.getElementById('illustration'), {selector: '.show-in-lightgallery a',
       });
     </script>
-
-<script
-src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
-integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer"
-></script>
-
-<script type="text/javascript">
-lightGallery(document.getElementById('lightgallery2'), {selector: '.galleryhelp-item a',
-});
-</script>
-
-
-<script
-src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
-integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer"
-></script>
-
-<script type="text/javascript">
-lightGallery(document.getElementById('lightgallery3'), {selector: '.galleryhelp-item a',
-});
-</script>
-
-<script
-src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
-integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer"
-></script>
-
-<script type="text/javascript">
-lightGallery(document.getElementById('lightgallery4'), {selector: '.galleryhelp-item a',
-});
-</script>
-
-<script
-src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
-integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer"
-></script>
-
-<script type="text/javascript">
-lightGallery(document.getElementById('lightgallery4'), {selector: '.galleryhelp-item a',
-});
-</script>
-
-
 
 </body>
 </html>
