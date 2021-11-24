@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: lightblue;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  width: 100%;
+  justify-content: center;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  padding-top: 56px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+#about {
+  background-color: coral;
+}
+
+#portfolio {
+  background-color: crimson;
+}
+#contacts {
+  background-color: cyan;
+}
+
+.menu a {
+  display: block;
+  padding: 4px 8px;
+  margin: 0 4px;
+  font-size: 20px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: white;
+  background-color: blue;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.header .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+#about .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about .section-title {
+  width: 100%;
+}
+
+#about .section-image img {
+  width: 100%;
+}
+
+#about .section-image,
+#about .section-text {
+  width: 50%;
+}
