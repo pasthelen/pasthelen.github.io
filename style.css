@@ -378,7 +378,7 @@ a:hover {
   background-color: black;
 }
 
-#about .section-image img {
+/* #about .section-image img {
   border: 1px solid red;
   padding: 5px;
 }
@@ -389,7 +389,7 @@ a:hover {
     padding-left: 0px;
     padding-top: 20px;
   }
-}
+} */
 
 @media (max-width: 828px) {
   .header .wrapper {
